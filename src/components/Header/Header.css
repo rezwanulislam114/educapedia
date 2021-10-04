@@ -1,0 +1,12 @@
+.navlink {
+    text-decoration: none;
+    color: black;
+    margin: 0 0 0 30px;
+    font-size: 18px;
+}
+.navlink:hover {
+    color: #ff7120;
+}
+.primary-color {
+    color: #ff7120
+}
