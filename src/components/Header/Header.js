@@ -16,7 +16,7 @@ const Header = () => {
         <div>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand><span className="primary-color fs-1">{graduationCap}</span> <span className="fs-2 fw-bold">Educapedia</span></Navbar.Brand>
+                    <Navbar.Brand><span className="primary-color fs-1">{graduationCap}</span> <span className="fs-2 fw-bold">Educapedia.</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
