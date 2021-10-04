@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRocket } from '@fortawesome/free-solid-svg-icons'
 
 const Course = (props) => {
-    const {name, lecture, img, price} = props.course;
+    const {name, lecture, img, price, hours, enrolled} = props.course;
     const rocket = <FontAwesomeIcon icon={faRocket} />
 
     return (
@@ -12,7 +12,9 @@ const Course = (props) => {
             <img className="course-img" src={img} alt="" />
             <div>
                 <h3 className="mt-3">{name}</h3>
-                <p className="m-0">Lecture: {lecture}</p>
+                <p className="mb-2 fs-5">Lecture: {lecture}</p>
+                <p className="mb-2 fs-5">Total Class Time: {hours} hr</p>
+                <p className="mb-2 fs-5">{enrolled} Students Enrolled</p>
                 <p className="fs-3 m-0 mb-3">$ {price}</p>
                 <button className="btn-regular">Enroll Now <span className="ms-2">{rocket}</span></button>
             </div>

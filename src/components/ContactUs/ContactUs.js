@@ -15,7 +15,7 @@ const ContactUs = () => {
 
     return (
         <div>
-            <Container fluid className="contactus-header">
+            <Container fluid className="route-header">
                 <Container>
                     <h1>Contact Us</h1>
                 </Container>
