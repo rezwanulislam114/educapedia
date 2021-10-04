@@ -23,7 +23,7 @@ const Home = () => {
     
     return (
         <div>
-            <Container className="mt-5 py-5">
+            <Container fluid className="py-5 header-home">
                 <Row className="align-items-center">
                     <Col className="d-flex justify-content-center mb-5">
                         <h1 className="intro-text">Learn Everyday <br /> Any New Skills <br /> with <span className="primary-color">Educapedia.</span></h1>
