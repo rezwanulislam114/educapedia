@@ -6,7 +6,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div>
-            <Container fluid className="footer-backgound">
+            <Container fluid className="footer-backgound mt-5">
                 <Container>
                     <Row>
                         <Col>

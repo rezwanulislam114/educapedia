@@ -27,7 +27,7 @@ const Home = () => {
                         <img className="img-fluid" src={homeImg} alt="" />
                     </Col>
                     <Col className="d-flex justify-content-center">
-                        <h1 className="intro-text">Learn Everyday <br /> Any New Skills <br /> with <span className="primary-color">Educapedia</span></h1>
+                        <h1 className="intro-text">Learn Everyday <br /> Any New Skills <br /> with <span className="primary-color">Educapedia.</span></h1>
                     </Col>
                 </Row>
                 <h1 className="text-center title-text">Explore Our Courses</h1>
