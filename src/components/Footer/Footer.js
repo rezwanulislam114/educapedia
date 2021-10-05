@@ -9,10 +9,13 @@ const Footer = () => {
             <Container fluid className="footer-backgound mt-5">
                 <Container>
                     <Row>
+                        {/* educapedia says */}
                         <Col>
                             <h2 className="primary-color">Educapedia.</h2>
                             <p>This is the best online education site for learners who really want to learn something. We are really proude of you for getting you as a student. Best wishes from us. Keep continue your learning.</p>
                         </Col>
+
+                        {/* contact us */}
                         <Col className="contact-us-footer ps-5">
                             <h4 className="mb-4">Contact Us</h4>
                             <p>info@educapedia.con</p>
@@ -21,6 +24,8 @@ const Footer = () => {
                             <p> House: 46, Road: 5/A, Sector: 7 <br /> 
                             Uttara, Dhaka-1230</p>
                         </Col>
+
+                        {/* quick links */}
                         <Col className="ps-5">
                             <h4 className="mb-4">Quick Links</h4>
                             <NavLink className="navlink-footer" to="/home">Home</NavLink>
@@ -28,6 +33,8 @@ const Footer = () => {
                             <NavLink className="navlink-footer" to="/courses">Courses</NavLink>
                             <NavLink className="navlink-footer" to="/contact">Contact Us</NavLink>
                         </Col>
+
+                        {/* features */}
                         <Col className="features-footer">
                             <h4 className="mb-4">Features</h4>
                             <p>Latest News</p>

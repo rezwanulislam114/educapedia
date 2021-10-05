@@ -12,6 +12,10 @@ import Registration from './components/Registration/Registration';
 function App() {
   return (
     <div>
+
+      {/* all copmonents are used for routing. 
+      and here header and footer are fixed in every route */}
+      
       <BrowserRouter>
       <Header></Header>
         <Switch>

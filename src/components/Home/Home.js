@@ -18,11 +18,14 @@ const Home = () => {
         .then(data => setCourses(data.slice(2, 6)))
     }, []);
     const history = useHistory();
+
+    // font awsome icons 
     const rightArrow = <FontAwesomeIcon icon={faAngleRight} />
     const check = <FontAwesomeIcon icon={faCheckCircle} />
     
     return (
         <div>
+            {/* home page intro  */}
             <Container fluid className="py-5 header-home">
                 <Row className="align-items-center">
                     <Col className="d-flex justify-content-center mb-5">
@@ -33,6 +36,8 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
+
+            {/* a little part of about us page  */}
             <Container fluid className="p-5 mt-5 about-intro">
                 <Container>
                     <Row>
@@ -54,6 +59,8 @@ const Home = () => {
                     </Row>
                 </Container>
             </Container>
+
+            {/* a little view of courses  */}
             <Container>
                 <h1 className="text-center title-text">Explore Our Courses</h1>
                 <Row className="mt-5">
@@ -66,6 +73,8 @@ const Home = () => {
                 <button className="btn-regular d-block mx-auto mt-5" onClick={() => history.push('/courses')}>
                     Explore More Courses <span className="ms-2">{rightArrow}</span>
                 </button>
+
+                {/* subscribe section  */}
                 <Row className="mt-5">
                     <h1 className="text-center mt-5 pt-5">
                         Subscribe our Newsletter & <br /> Get every updates.

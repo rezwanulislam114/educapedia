@@ -6,11 +6,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
+    // active style for navlinks
     const activeStyle = {
         fontWeight: 'bold',
         color: '#ff7120'
     }
+
+    // font awsome icons 
     const graduationCap = <FontAwesomeIcon icon={faGraduationCap} />
+
 
     return (
         <div>

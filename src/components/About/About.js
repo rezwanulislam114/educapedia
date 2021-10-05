@@ -7,6 +7,8 @@ import { faBookOpen, faPuzzlePiece, faUserTie } from '@fortawesome/free-solid-sv
 import RouteHeader from '../RouteHeader/RouteHeader';
 
 const About = () => {
+
+    // font awsome icons 
     const book = <FontAwesomeIcon icon={faBookOpen} />
     const puzzle = <FontAwesomeIcon icon={faPuzzlePiece} />
     const trainer = <FontAwesomeIcon icon={faUserTie} />
@@ -16,6 +18,8 @@ const About = () => {
             <RouteHeader>
                 <h1>About Us</h1>
             </RouteHeader>
+
+            {/* about us intro  */}
             <Container>
                 <Row className="mt-5">
                     <Col className="me-4">

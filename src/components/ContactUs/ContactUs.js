@@ -10,6 +10,7 @@ import RouteHeader from '../RouteHeader/RouteHeader'
 
 
 const ContactUs = () => {
+    // font awsome icons 
     const map = <FontAwesomeIcon icon={faMapMarkerAlt} />
     const phone = <FontAwesomeIcon icon={faPhone} />
     const email = <FontAwesomeIcon icon={faEnvelopeOpen} />
@@ -19,7 +20,9 @@ const ContactUs = () => {
             <RouteHeader>
                 <h1>Contact Us</h1>
             </RouteHeader>
+
             <Container className="mt-5">
+            {/* get touch section or contact us section  */}
                 <Row>
                     <Col className="me-4">
                         <img className="img-fluid mt-5" src={introImg} alt="" />
@@ -42,6 +45,8 @@ const ContactUs = () => {
                         </div>
                     </Col>
                 </Row>
+
+                {/* info sharing section (email, name etc etc) */}
                 <Row className="mt-5">
                     <Col>
                         <h1 className="text-center mt-0 title-text">Contact Us</h1>
