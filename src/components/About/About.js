@@ -4,6 +4,7 @@ import aboutusImg from '../../image/aboutus.svg';
 import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpen, faPuzzlePiece, faUserTie } from '@fortawesome/free-solid-svg-icons';
+import RouteHeader from '../RouteHeader/RouteHeader';
 
 const About = () => {
     const book = <FontAwesomeIcon icon={faBookOpen} />
@@ -12,11 +13,9 @@ const About = () => {
 
     return (
         <div>
-            <Container fluid className="route-header">
-                <Container>
-                    <h1>About Us</h1>
-                </Container>
-            </Container>
+            <RouteHeader>
+                <h1>About Us</h1>
+            </RouteHeader>
             <Container>
                 <Row>
                     <Col className="me-4">

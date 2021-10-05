@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
 import formImage from '../../image/form-contactus.svg'
 import Button from '@restart/ui/esm/Button';
+import RouteHeader from '../RouteHeader/RouteHeader'
 
 
 const ContactUs = () => {
@@ -15,11 +16,9 @@ const ContactUs = () => {
 
     return (
         <div>
-            <Container fluid className="route-header">
-                <Container>
-                    <h1>Contact Us</h1>
-                </Container>
-            </Container>
+            <RouteHeader>
+                <h1>Contact Us</h1>
+            </RouteHeader>
             <Container className="mt-5">
                 <Row>
                     <Col className="me-4">

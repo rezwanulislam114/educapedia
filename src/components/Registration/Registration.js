@@ -1,14 +1,13 @@
 import React from 'react';
 import { Col, Container, Form, Row } from 'react-bootstrap';
+import RouteHeader from '../RouteHeader/RouteHeader';
 
 const Registration = () => {
     return (
         <div>
-            <Container fluid className="route-header">
-                <Container>
-                    <h1>Registration</h1>
-                </Container>
-            </Container>
+            <RouteHeader>
+                <h1>Registration</h1>
+            </RouteHeader>
             <Container>
                 <h1 className="text-center title-text">
                     Registration Form

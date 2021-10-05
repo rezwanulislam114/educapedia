@@ -1,9 +1,3 @@
-.route-header {
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,113,32,0.2) 82%), url('../../image/header-contactus.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 60px 0;
-}
 .contactus-item {
     display: flex;
     align-items: center;
