@@ -17,11 +17,11 @@ const About = () => {
                 <h1>About Us</h1>
             </RouteHeader>
             <Container>
-                <Row>
+                <Row className="mt-5">
                     <Col className="me-4">
                         <img className="img-fluid mt-5" src={aboutusImg} alt="" />
                     </Col>
-                    <Col className="m-4 ps-5">
+                    <Col className="m-4 mt-4 ps-5">
                         <h1>Why <span className="primary-color">Educapedia.</span> is special?</h1>
                         <h3 className="mt-4">The act or experience of one who enrolled and did a course properly is just like this, <i>'Makes Learning Fun'</i></h3>
                         <p className=" fs-5 mt-4">
